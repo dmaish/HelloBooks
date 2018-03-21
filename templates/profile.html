@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/app.css">
+    <link rel="stylesheet" href="../assets/registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>registration</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav class="navbar navbar-light navbar-toggleable-sm">
+            <a href="#" class="navbar-brand mb-0">
+                <img src="../assets/library.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                hello_books</a>
+
+            <div  class=" justify-content-end">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="library.html">library</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="available_books.html">borrow</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sec-features">logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <!--column containing the profile details-->
+    <div class="col-md-3 col-sm-6">
+        <img class="avatar" src="../assets/avatar.png">
+        <h6>Username: Daniel Maina</h6>
+        <h6>Email: mainadaniel81@gmail.com</h6>
+        <a class="btn btn-primary btn-sm">edit profile</a>
+    </div>
+        <!--column containing books to be returned and the table showing history-->
+        <div class="col-md-9 col-sm-6">
+            <h5>borrowed books</h5>
+
+            <!--book pics row2 -->
+            <div class="row book-pic-row">
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="items">
+                        <img src="../assets/images/mockingbird.jpg" class="book-pic">
+                        <button type="button" class="btn btn-outline-primary bt-sm">return book</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="items">
+                        <img src="../assets/images/comics.jpeg" class="book-pic">
+                        <button type="button" class="btn btn-outline-primary bt-sm">return book</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="items">
+                        <img src="../assets/images/godfather.jpg" class="book-pic">
+                        <button type="button" class="btn btn-outline-primary bt-sm">return book</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="items">
+                        <img src="../assets/images/dan.jpg" class="book-pic">
+                        <div >
+                            <button type="button" class="btn btn-outline-primary bt-sm">return book</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--borrowing history table-->
+            <div class="container mt-5">
+                <h5>borrowing history</h5>
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">book title</th>
+                    <th scope="col">date borrowed</th>
+                    <th scope="col">date returned</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>The Da Vinci Code</td>
+                    <td>22 sep 2017</td>
+                    <td>30 dec 2017</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>The Last Juror</td>
+                    <td>27 aug 2017</td>
+                    <td>30 aug 2017</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>The Godfather</td>
+                    <td>12 may 2016</td>
+                    <td>19 june 2016</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+</div>
+</body>
+</html>
